@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animacia</title>
+    <style>
+        .grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.box{
+    background-color: green;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.box:nth-child(odd){
+    background-color: chocolate;
+}
+.box:nth-child(even){
+    background-color: blue;
+}
+    </style>
+    
+</head>
+<body>
+
+  <div class="grid-container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    <div class="box">10</div>
+  </div> 
+    
+</body>
+</html>
